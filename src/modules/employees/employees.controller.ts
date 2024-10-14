@@ -4,8 +4,8 @@ import {
   GetEmployeeResponseDto,
   EmployeesResponseDto,
   NewEmployeeDto,
-} from './employees.types';
-import { IdDto } from 'src/shared/dtos/id-response.model.dto';
+} from './employees.dtos';
+import { IdDto } from 'src/shared/dtos';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
 
 @ApiTags('Employees')

@@ -4,8 +4,8 @@ import {
   TechnologiesResponseDto,
   NewTechnologyDto,
   TechnologyDto,
-} from './technologies.types';
-import { IdDto } from 'src/shared/dtos/id-response.model.dto';
+} from './technologies.dtos';
+import { IdDto } from 'src/shared/dtos';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags('Technologies')
